@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <node id='131741' version='1' lat='50.0416308852817' lon='8.255938985516785' />
+  <node id='131740' version='1' lat='50.04541154323895' lon='8.326130026333113' />
+  <node id='131739' version='1' lat='50.05529801017037' lon='8.342658884331795' />
+  <node id='131738' version='1' lat='50.041049219167284' lon='8.342658884331795' />
+  <node id='131737' version='1' lat='50.040322126613425' lon='8.417378379394336' />
+  <node id='131736' version='1' lat='50.04453911013884' lon='8.412397079723501' />
+  <node id='131735' version='1' lat='50.05515263570595' lon='8.257297521790651' />
+  <node id='131734' version='1' lat='50.05253582003016' lon='8.247108499736667' />
+  <node id='131733' version='1' lat='50.05515263570595' lon='8.416925533969717' />
+  <node id='131732' version='1' lat='50.050645808846895' lon='8.41171781158657' />
+  <node id='131731' version='1' lat='50.05311734695733' lon='8.325677180908492' />
+  <node id='131730' version='1' lat='50.04453911013884' lon='8.246882077024358' />
+  <way id='131745' version='1' >
+    <nd ref='131740' />
+    <nd ref='131730' />
+    <nd ref='131734' />
+    <nd ref='131731' />
+    <nd ref='131740' />
+    <tag k='seamark:type' v='fairway' />
+  </way>
+  <way id='131743' version='1' >
+    <nd ref='131739' />
+    <nd ref='131733' />
+    <nd ref='131737' />
+    <nd ref='131738' />
+    <nd ref='131739' />
+    <tag k='waterway' v='riverbank' />
+  </way>
+  <way id='131742' version='1' >
+    <nd ref='131732' />
+    <nd ref='131736' />
+    <nd ref='131740' />
+    <nd ref='131731' />
+    <nd ref='131732' />
+    <tag k='seamark:type' v='fairway' />
+  </way>
+  <way id='131744' version='1' >
+    <nd ref='131735' />
+    <nd ref='131739' />
+    <nd ref='131738' />
+    <nd ref='131741' />
+    <nd ref='131735' />
+    <tag k='waterway' v='riverbank' />
+  </way>
+</osm>

@@ -1,0 +1,46 @@
+#!/bin/bash
+
+LOGFILE="${HOME}/mkoseam.log"
+WORKDIR="${HOME}/osm/"
+RUNFILE="${HOME}/mkoseam.run"
+
+function logit()
+{
+	echo "`date` $1">>"${LOGFILE}"
+}
+
+function logerr()
+{
+	if [ -n "$1" ]; then
+		logit "$1"
+	fi
+	exit 1
+}
+
+logit "Started."
+
+if [ -e "$RUNFILE" ]; then
+	logerr "Another instance is already running.\n If you are sure that not, delete ${RUNFILE}."
+fi
+touch "$RUNFILE"
+
+cd "${WORKDIR}" || logerr "Homeswitch not possible."
+
+logit "getplanet"
+#"${WORKDIR}/getplanet.sh"|tee -a "${LOGFILE}" || logerr "getplanet failed."
+
+logit "getsea"
+#"${WORKDIR}/getsea.sh"|tee -a "${LOGFILE}" || logerr "getsea failed."
+
+## Hier werden die einzelnen Karten erzeugt in der Form: 
+## mkmymap.sh <Dateiname> "left=<x1> right=<x2> bottom=<y1> top=<y2>"
+
+#"${WORKDIR}/mkmymap.sh" oseam_ng_europe_central "left=-8 right=25 bottom=38 top=61"|tee -a "${LOGFILE}" || logerr "mkmymap 1 failed"
+#"${WORKDIR}/mkmymap.sh" oseam_ng_europe_north "left=-12 right=31 bottom=47 top=67"|tee -a "${LOGFILE}" || logerr "mkmymap 1 failed"
+#"${WORKDIR}/mkmymap.sh" oseam_ng_europe_south "left=-33 right=45 bottom=26 top=53"|tee -a "${LOGFILE}" || logerr "mkmymap 1 failed"
+
+rm -f "$RUNFILE"
+
+logit "Ended."
+
+#EOF

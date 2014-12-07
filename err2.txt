@@ -1,0 +1,9 @@
+Schwerwiegend (ExtTypeAttributes): ../tiles/63240006.osm.pbf: OSM id 1579297047: shore is no valid sector bound, please annotate a numeric value
+Schwerwiegend (ExtTypeAttributes): ../tiles/63240011.osm.pbf: OSM id 1579319461: shore is no valid sector bound, please annotate a numeric value
+Schwerwiegend (ExtTypeAttributes): ../tiles/63240021.osm.pbf: OSM id 2239831626 (java.lang.NumberFormatException: For input string: "PA")
+Schwerwiegend (ExtTypeAttributes): ../tiles/63240021.osm.pbf: OSM id 2239831626 (java.lang.NumberFormatException: For input string: "PA")
+Schwerwiegend (ExtTypeAttributes): ../tiles/63240022.osm.pbf: OSM id 1347582795 (java.lang.NumberFormatException: For input string: "[W.]1")
+Schwerwiegend (ExtTypeAttributes): ../tiles/63240022.osm.pbf: OSM id 1347582795 (java.lang.NumberFormatException: For input string: "[W.]1")
+Schwerwiegend (ExtTypeAttributes): ../tiles/63240022.osm.pbf: OSM id 1347582795 (java.lang.NumberFormatException: For input string: "[W.]1")
+Schwerwiegend (ExtTypeAttributes): ../tiles/63240058.osm.pbf: OSM id 1804705470 (java.lang.NumberFormatException: For input string: "(2).0.4")
+Schwerwiegend (ExtTypeAttributes): ../tiles/63240058.osm.pbf: OSM id 1804705470 (java.lang.NumberFormatException: For input string: "(2).0.4")

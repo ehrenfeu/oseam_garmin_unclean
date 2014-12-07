@@ -1,0 +1,13 @@
+man_made=groyne [0x10e03 resolution 22]
+
+man_made=pier [0x1040c resolution 22]
+man_made=breakwater [0x010400 resolution 22]
+
+leisure=marina [0x010500 resolution 20 continue]
+
+#seamark:type=fairway [0x10305 level 2]
+
+seamark:restricted_area:restriction=no_anchoring [0x10501 level 1]
+
+#wetland=tidalflat | (wetland=saltmarsh & tidal=yes) [0x10307 level 2]
+#wetland=tidalflat [0x10307 level 2]

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.5' generator='splitter'>
+<bounds minlat='50.042724609375' minlon='8.2452392578125' maxlat='50.064697265625' maxlon='8.4210205078125'/>
+<node id='131741' lat='50.0416309' lon='8.2559390'/>
+<node id='131740' lat='50.0454115' lon='8.3261300'/>
+<node id='131739' lat='50.0552980' lon='8.3426589'/>
+<node id='131738' lat='50.0410492' lon='8.3426589'/>
+<node id='131737' lat='50.0403221' lon='8.4173784'/>
+<node id='131736' lat='50.0445391' lon='8.4123971'/>
+<node id='131735' lat='50.0551526' lon='8.2572975'/>
+<node id='131734' lat='50.0525358' lon='8.2471085'/>
+<node id='131733' lat='50.0551526' lon='8.4169255'/>
+<node id='131732' lat='50.0506458' lon='8.4117178'/>
+<node id='131731' lat='50.0531173' lon='8.3256772'/>
+<node id='131730' lat='50.0445391' lon='8.2468821'/>
+<way id='131745'>
+<nd ref='131740'/>
+<nd ref='131730'/>
+<nd ref='131734'/>
+<nd ref='131731'/>
+<nd ref='131740'/>
+<tag k='seamark:type' v='fairway'/>
+</way>
+<way id='131743'>
+<nd ref='131739'/>
+<nd ref='131733'/>
+<nd ref='131737'/>
+<nd ref='131738'/>
+<nd ref='131739'/>
+<tag k='waterway' v='riverbank'/>
+</way>
+<way id='131742'>
+<nd ref='131732'/>
+<nd ref='131736'/>
+<nd ref='131740'/>
+<nd ref='131731'/>
+<nd ref='131732'/>
+<tag k='seamark:type' v='fairway'/>
+</way>
+<way id='131744'>
+<nd ref='131735'/>
+<nd ref='131739'/>
+<nd ref='131738'/>
+<nd ref='131741'/>
+<nd ref='131735'/>
+<tag k='waterway' v='riverbank'/>
+</way>
+</osm>
